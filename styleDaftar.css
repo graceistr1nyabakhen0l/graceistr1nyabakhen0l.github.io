@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgba(255, 192, 203, 0.3);
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: maroon;
+  color: rgb(255, 225, 225);
+  padding: 1rem 2rem;
+  font-family: Arial, 'Helvetica', sans-serif;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .menu a {
+  color: rgb(255, 225, 225);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: block;
+}
+
+.navbar .menu a:not(.active):hover {
+  transform: translateY(-5px);
+  background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center; /* tengah secara horizontal */
+  gap: 15px; /* jarak antar tombol */
+  margin-top: 20px;
+}
+
+.email {
+  background-color: #30a94e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.email:hover {
+  transform: translateY(-10px);
+  background-color: #52b16a;
+}
+
+.facebook {
+  background-color: #3b5998; /* biru tua */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+.facebook:hover {
+  transform: translateY(-10px);
+  background-color: #5577c1; 
+}
+
+.twitter {
+  background-color: #1da1f2; /* biru muda */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+.twitter:hover {
+  transform: translateY(-10px);
+  background-color:  #7cc5f3;
+}
